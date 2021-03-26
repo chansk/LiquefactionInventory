@@ -16,9 +16,7 @@ LiqEventsFishnets.ipynb
 
 LiqEventsNonLiqCells01.ipynb: Erase 1km buff from 15km buff, then lay fishnet across space between them of 1.5x1.5 km. Results in a poly shapefile and a point shapefile (one point at centroid of each polygon).
 
-LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets for both small and large buffers
-
-MosaicASTER_02.ipynb:  Alex refa
+LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets 
 
 MosaicASTER_DEMs.ipynb: 
 
@@ -26,7 +24,7 @@ MosaicClipping02.ipynb: Create new folder of quake name, extract DEM to PGA's ex
     Then, go into Downloads directly and use GDAL codes to create slope, TPI, TRI
     Then Use the last block of this code to project slope, TPI, and TRI into appropriate folders
 
-MosaicClippingCTI.ipynb: 
+ClippingCTIs.ipynb: Create new folder of quake name, extract CTI and place there
 
 MosaicCTIs.ipynb: 
 
