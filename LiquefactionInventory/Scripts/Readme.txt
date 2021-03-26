@@ -20,11 +20,11 @@ LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of 
 
 MosaicASTER_02.ipynb:  Alex refa
 
-MosaicASTER_DEMAllocation.ipynb: 
-
 MosaicASTER_DEMs.ipynb: 
 
-MosaicClipping02.ipynb: 
+MosaicClipping02.ipynb: Create new folder of quake name, extract DEM to PGA's extent and project. 
+    Then, go into Downloads directly and use GDAL codes to create slope, TPI, TRI
+    Then Use the last block of this code to project slope, TPI, and TRI into appropriate folders
 
 MosaicClippingCTI.ipynb: 
 
