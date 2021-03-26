@@ -17,3 +17,21 @@ LiqEventsFishnets.ipynb
 LiqEventsNonLiqCells01.ipynb: Erase 1km buff from 15km buff, then lay fishnet across space between them of 1.5x1.5 km. Results in a poly shapefile and a point shapefile (one point at centroid of each polygon).
 
 LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets for both small and large buffers
+
+MosaicASTER_02.ipynb: 
+
+MosaicASTER_DEMAllocation.ipynb: 
+
+MosaicASTER_DEMs.ipynb: 
+
+MosaicClipping02.ipynb: 
+
+MosaicClippingCTI.ipynb: 
+
+MosaicCTIs.ipynb: 
+
+MosaicDEMs.ipynb: 
+
+ReclassEucDist.ipynb: 
+
+SamplingNoLiqPts_NoLiqEvents.ipynb: 
