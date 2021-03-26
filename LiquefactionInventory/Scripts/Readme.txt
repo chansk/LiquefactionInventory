@@ -18,7 +18,7 @@ LiqEventsNonLiqCells01.ipynb: Erase 1km buff from 15km buff, then lay fishnet ac
 
 LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets for both small and large buffers
 
-MosaicASTER_02.ipynb: 
+MosaicASTER_02.ipynb:  Alex refa
 
 MosaicASTER_DEMAllocation.ipynb: 
 
