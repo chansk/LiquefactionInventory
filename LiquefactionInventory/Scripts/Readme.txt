@@ -31,3 +31,5 @@ MosaicDEMs.ipynb: Mosaic together elevetion (aka DEM or GMTED) and associated st
 ReclassEucDist.ipynb: 
 
 SamplingNoLiqPts_NoLiqEvents.ipynb: 
+
+WaterDEMEucAllocation.ipynb: Euclidean Allocation of water body elevations
