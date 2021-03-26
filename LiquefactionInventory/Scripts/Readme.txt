@@ -28,8 +28,8 @@ MosaicCTIs.ipynb: Creating mosaic of all CTI layers
 
 MosaicDEMs.ipynb: Mosaic together elevetion (aka DEM or GMTED) and associated standard deviation tiles
 
-ReclassEucDist.ipynb: 
+ReclassEucDist.ipynb: Reclassify and Euclidean distance tools to obtain DC, DR, DWB layers from single attribute layer
 
 SamplingNoLiqPts_NoLiqEvents.ipynb: 
 
-WaterDEMEucAllocation.ipynb: Euclidean Allocation of water body elevations
+WaterDEMEucAllocation.ipynb: Allocate elevation of nearest water body value to every cell in the region
