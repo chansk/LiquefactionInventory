@@ -2,6 +2,8 @@ Readme
 Author: Alex Chansky, some code and methods from Michelle Meyer
 Date: 3/26/21
 
+ClippingCTIs.ipynb: Extract CTI, define with WGS 1984 (4326), then project
+
 DroppingNonLiqCells.ipynb: For 1 km, 100x100 m buffer polygon, identifies cells containing 1 or more liq point or poly, then drops all other cells.
 
 DroppingOffshoreNonLiqPoints.ipynb: For all events, some points fall offshore, where DC = 0. These are deleted as we want to keep only onshore points for non-liquefaction sampling. As fishnet polygon is irrelevant for non-liq points, we can ignore polygon altogether.
@@ -16,13 +18,12 @@ LiqEventsNonLiqCells01.ipynb: Erase 1km buff from 15km buff, then lay fishnet ac
 
 LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets 
 
-MosaicASTER_DEMs.ipynb: 
+MosaicASTER_03.ipynb: Mosaic together cells representing “attributes” of water bodies, where 0=land, 
+    1=ocean, 2=rivers, and 3=lakes.
 
 MosaicClipping02.ipynb: Create new folder of quake name, extract DEM to PGA's extent and project. 
     Then, go into Downloads directly and use GDAL codes to create slope, TPI, TRI
     Then Use the last block of this code to project slope, TPI, and TRI into appropriate folders
-
-ClippingCTIs.ipynb: Extract CTI, define with WGS 1984 (4326), then project
 
 MosaicCTIs.ipynb: Creating mosaic of all CTI layers
 
