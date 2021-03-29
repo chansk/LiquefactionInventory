@@ -30,6 +30,6 @@ MosaicDEMs.ipynb: Mosaic together elevetion (aka DEM or GMTED) and associated st
 
 ReclassEucDist.ipynb: Reclassify and Euclidean distance tools to obtain DC, DR, DWB layers from single attribute layer
 
-SamplingNoLiqPts_NoLiqEvents.ipynb: 
+SamplingNoLiqPts_NoLiqEvents.ipynb: For non-liquefaction events, this script samples non-liquefaction points using a radius of 40 km and 1.5 km between sampled points. Points over the ocean (DC=0) are later dropped.
 
 WaterDEMEucAllocation.ipynb: Allocate elevation of nearest water body value to every cell in the region
