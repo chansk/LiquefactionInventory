@@ -34,3 +34,32 @@ ReclassEucDist.ipynb: Reclassify and Euclidean distance tools to obtain DC, DR, 
 SamplingNoLiqPts_NoLiqEvents.ipynb: For non-liquefaction events, this script samples non-liquefaction points using a radius of 40 km and 1.5 km between sampled points. Points over the ocean (DC=0) are later dropped.
 
 WaterDEMEucAllocation.ipynb: Allocate elevation of nearest water body value to every cell in the region
+
+
+Typical Order of Events:
+- Obtain / Digitize points and polygons representing liquefaction as GIS shapefiles
+- Create complementary spreadsheet containing each event listing projection, 1 or 0 for "Liq", and 1 or 0 for "Working"
+- Download all appropriate variable data (see full documentation for further details)
+- Run all scripts
+1. MosaicCTIs.ipynb
+ClippingCTIs.ipynb
+2. MosaicDEMs.ipynb
+MosaicClipping02
+
+
+
+- 
+DroppingNonLiqCells.ipynb
+DroppingOffshoreNonLiqPoints.ipynb
+ExportingData.ipynb
+ExtractLiqPtsData&DropBadData.ipynb
+LiqEventsFishnets.ipynb
+LiqEventsNonLiqCells01.ipynb
+LiqEventsNonLiqCellsBufferExtent02.ipynb
+MosaicASTER_03.ipynb
+
+
+
+ReclassEucDist.ipynb
+SamplingNoLiqPts_NoLiqEvents.ipynb
+WaterDEMEucAllocation.ipynb
