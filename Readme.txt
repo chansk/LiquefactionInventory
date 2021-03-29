@@ -39,27 +39,38 @@ WaterDEMEucAllocation.ipynb: Allocate elevation of nearest water body value to e
 Typical Order of Events:
 - Obtain / Digitize points and polygons representing liquefaction as GIS shapefiles
 - Create complementary spreadsheet containing each event listing projection, 1 or 0 for "Liq", and 1 or 0 for "Working"
-- Download all appropriate variable data (see full documentation for further details)
-- Run all scripts
+- Download all appropriate variable data for CTI, DEM, Water Bodies (see full documentation for further details)
+- Run all scripts:
+
+- Putting rasters together and clipping if necessary:
 1. MosaicCTIs.ipynb
-ClippingCTIs.ipynb
-2. MosaicDEMs.ipynb
-MosaicClipping02
+2. ClippingCTIs.ipynb
+3. MosaicDEMs.ipynb
+4. MosaicClipping02
+5. MosaicASTER_03.ipynb
+6. ReclassEucDist.ipynb
+7. WaterDEMEucAllocation.ipynb
+
+
+- Establishing buffers and fishnets:
+8. LiqEventsNonLiqCellsBufferExtent02.ipynb
+9. SamplingNoLiqPts_NoLiqEvents.ipynb
+10. LiqEventsNonLiqCells01.ipynb
+11. LiqEventsFishnets.ipynb
+
+- Eliminating unwanted data:
+12. DroppingNonLiqCells.ipynb
+13. DroppingOffshoreNonLiqPoints.ipynb
+
+- Extracting and exporting values from raster data:
+14. ExtractLiqPtsData&DropBadData.ipynb
+15. ExportingData.ipynb
 
 
 
-- 
-DroppingNonLiqCells.ipynb
-DroppingOffshoreNonLiqPoints.ipynb
-ExportingData.ipynb
-ExtractLiqPtsData&DropBadData.ipynb
-LiqEventsFishnets.ipynb
-LiqEventsNonLiqCells01.ipynb
-LiqEventsNonLiqCellsBufferExtent02.ipynb
-MosaicASTER_03.ipynb
 
 
 
-ReclassEucDist.ipynb
-SamplingNoLiqPts_NoLiqEvents.ipynb
-WaterDEMEucAllocation.ipynb
+
+
+
