@@ -65,12 +65,3 @@ Typical Order of Events:
 - Extracting and exporting values from raster data:
 14. ExtractLiqPtsData&DropBadData.ipynb
 15. ExportingData.ipynb
-
-
-
-
-Alex potatoes
-
-
-
-
