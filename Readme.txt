@@ -18,7 +18,7 @@ LiqEventsNonLiqCells01.ipynb: Erase 1km buff from 15km buff, then lay fishnet ac
 
 LiqEventsNonLiqCellsBufferExtent02.ipynb: Determining X and Y mins and Maxes of buffer extents and place in CSV, which tells us where to place fishnets 
 
-MosaicASTER_03.ipynb: Mosaic together cells representing ìattributesî of water bodies, where 0=land, 
+MosaicASTER_03.ipynb: Mosaic together cells representing ‚Äúattributes‚Äù of water bodies, where 0=land, 
     1=ocean, 2=rivers, and 3=lakes.
 
 MosaicClipping02.ipynb: Create new folder of quake name, extract DEM to PGA's extent and project. 
@@ -50,7 +50,6 @@ Typical Order of Events:
 5. MosaicASTER_03.ipynb
 6. ReclassEucDist.ipynb
 7. WaterDEMEucAllocation.ipynb
-
 
 - Establishing buffers and fishnets:
 8. LiqEventsNonLiqCellsBufferExtent02.ipynb
